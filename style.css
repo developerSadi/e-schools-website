@@ -1,7 +1,9 @@
 body{
     font-family: sans-serif;
 }
-
+section{
+    margin-bottom: 50px;
+}
 /* navigation menu start here  */
 .navbar{
     background-color: #F0FFF0;
@@ -54,3 +56,29 @@ body{
     color: #6c757d;
 }
 /* banner section Ends here  */
+
+/* students-area section start here  */
+.students-area .card img{
+    width: 80px;
+    margin: auto;
+}
+.students-area .card{
+  background-color: #F0FFF0;
+  border: none;
+  cursor: pointer;
+  padding: 40px 0px 17px 0px;
+  transition: all ease 0.5s;
+  height: 250px;
+  margin-top: 15px;
+}
+.students-area .card:hover{
+    box-shadow: 5px 5px 20px gainsboro;
+}
+.students-area .card1{
+    background-color: white;
+    box-shadow: 5px 5px 20px gainsboro;
+    height: 250px;
+}
+.students-area .card .card-title{
+    font-weight: 700;
+}
