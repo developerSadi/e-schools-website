@@ -74,6 +74,10 @@ section{
 .students-area .card:hover{
     box-shadow: 5px 5px 20px gainsboro;
 }
+.students-area .card .card-title{
+    color: #413960;
+    font-weight: 700;
+}
 .students-area .card1{
     background-color: white;
     box-shadow: 5px 5px 20px gainsboro;
@@ -81,4 +85,49 @@ section{
 }
 .students-area .card .card-title{
     font-weight: 700;
+}
+/* students-area section ends here  */
+
+/* online-courses section start here  */
+.online-courses .card{
+    box-shadow: 6px 6px 19px gainsboro;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.online-courses .card img{
+    width: 90%;
+    margin: auto;
+}
+.online-courses .card .card-body .card-title{
+    color: #413960;
+}
+.online-courses .card .card-body .simple-text img{
+    width: 20px;
+}
+.online-courses .card .card-body .btn-style{
+    background-color: #21B573;
+    border-radius: 50px;
+    padding: 6px 20px;
+    margin-bottom: 15px;
+}
+/* online-courses section ends here  */
+
+/* footer-area section start here  */
+.footer-area{
+    background-color: #282531;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer-area .navbar-nav .nav-item{
+    margin-bottom: 5px;
+    
+}
+.footer-area .navbar-nav .nav-item a{
+    text-decoration: none;
+    color: white;
+}
+.footer-area .navbar-nav .nav-item a:hover{
+    color: #21B573;
+    text-decoration: underline;
 }
